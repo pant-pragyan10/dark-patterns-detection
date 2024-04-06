@@ -1,0 +1,137 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    min-height: 300px;
+    width: 296px;
+    color: #FFFFFF;
+    background-color: #28112b;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: #ceb1be;
+    border: none;
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 1px #aaabbc;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #f1e4e8;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.modal-header {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 1px 1px 1px #aaabbc;
+    background-color: #28112b;  /*#05283D;*/
+    padding: 3px; 
+    /* #28112b */
+}
+
+.modal-content {
+    padding: 0px 16px 0px 16px;
+    min-height: 300px;
+}
+
+.modal-footer {
+    align-items: end;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 3px 8px 3px;
+}
+
+.container {
+    background-color: #28112b;
+    margin: 10px 0px 8px 0px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 1px #aaabbc;
+}
+
+.container p {
+    margin: 0px;
+}
+
+.label {
+    color: #B8B8B8;
+    margin: 0px;
+    font-weight: 150;
+}
+
+.number, .total-number {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.modal-footer a {
+    color: #D8D8D8;
+}
+
+.filter-dropdown {
+    position: relative;
+  }
+  
+.filter-options {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px; /* Adjust width as needed */
+    box-shadow: 0px 8px 16px 0px #aaabbc;
+    z-index: 1;
+  }
+  
+.filter-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.filter-dropdown:hover .filter-options {
+    display: block;
+  }
+
+.threat-level{
+    max-height: 33px;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    color: black;
+    margin: 5px 0 5px 0;
+}
+.level-low{
+    background-color: #04cd00;
+    border: 1px solid black;
+}
+.level-medium{
+    background-color: #ffff00;
+    border: 1px solid black;
+}
+.level-high{
+    background-color: #ffc002;
+    border: 1px solid black;
+}
+.level-very-high{
+    background-color: #ff0000;
+    border: 1px solid black;
+}
