@@ -9,7 +9,7 @@ category_vect = load('category_vectorizer.joblib')
 
 app = Flask(__name__)
 CORS(app)
-
+//hh
 @app.route('/', methods=['POST'])
 def main():
     if request.method == 'POST':
