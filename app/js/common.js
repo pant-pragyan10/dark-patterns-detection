@@ -7,7 +7,7 @@ const ignoredElements = ['script', 'style', 'noscript', 'br', 'hr'];
 const winWidth = window.innerWidth;
 const winHeight = window.innerHeight;
 const winArea = winWidth * winHeight;
-
+//
 var getElementArea = function(element) {
     var rect = element.getBoundingClientRect();
     return rect.height * rect.width;
