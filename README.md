@@ -1,4 +1,4 @@
-**DARK PATTERNS DETECTION EXTENSION**
+**ESPADA : DARK PATTERNS DETECTION EXTENSION**
 
 
 Dark Patterns refers to the manipulative elements on e-commerce websites that convince users to take decisions that they wouldn't take otherwise. 
